@@ -978,6 +978,7 @@ class Circle(_ShapeWithCenter, _ShapeWithOutline):
         # The radius is also stored in an instance variable:
         self.radius = radius
 
+
     def __repr__(self):
         """ Returns a string representation of this Circle. """
         f_string = ''
